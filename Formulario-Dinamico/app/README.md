@@ -3,14 +3,14 @@
 
 Este código implementa um componente Angular chamado DynamicFormComponent que é responsável por criar um formulário dinâmico com base em uma lista de perguntas fornecidas. Aqui está um resumo do que o código está fazendo:
 
-Importa as dependências necessárias do Angular, como Component, Input, OnInit, CommonModule, FormGroup e ReactiveFormsModule.
-Importa os componentes e serviços relacionados ao formulário dinâmico, como DynamicFormQuestionComponent, QuestionBase e QuestionControlService.
-Define o componente DynamicFormComponent com seu seletor, template e provedores de serviço.
-Declara uma entrada @Input() chamada questions que recebe uma lista de perguntas do tipo QuestionBase<string>[].
-Define uma propriedade form do tipo FormGroup que representa o formulário dinâmico.
-Define uma propriedade payLoad para armazenar os dados do formulário após o envio.
-No método ngOnInit(), inicializa o formulário chamando o serviço QuestionControlService para converter a lista de perguntas em um FormGroup.
-No método onSubmit(), converte os valores brutos do formulário em uma string JSON e armazena-os na propriedade payLoad.
+Importa as dependências necessárias do Angular, como Component, Input, OnInit, CommonModule, FormGroup e ReactiveFormsModule.<br/>
+Importa os componentes e serviços relacionados ao formulário dinâmico, como DynamicFormQuestionComponent, QuestionBase e QuestionControlService.<br/>
+Define o componente DynamicFormComponent com seu seletor, template e provedores de serviço.<br/>
+Declara uma entrada @Input() chamada questions que recebe uma lista de perguntas do tipo QuestionBase<string>[].<br/>
+Define uma propriedade form do tipo FormGroup que representa o formulário dinâmico.<br/>
+Define uma propriedade payLoad para armazenar os dados do formulário após o envio.<br/>
+No método ngOnInit(), inicializa o formulário chamando o serviço QuestionControlService para converter a lista de perguntas em um FormGroup.<br/>
+No método onSubmit(), converte os valores brutos do formulário em uma string JSON e armazena-os na propriedade payLoad.<br/>
 
 ![image](https://github.com/Ra2861/Angular/assets/99209068/eedf2ab6-4fb5-47ae-8c97-6e549cdc54d1)
 
