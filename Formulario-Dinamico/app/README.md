@@ -1,6 +1,20 @@
 
 ![Captura de tela 2024-03-03 232051](https://github.com/Ra2861/Angular/assets/99209068/51f1cbba-2a22-4ee5-a8d7-50c5ada2311a)
 
+Este código implementa um componente Angular chamado DynamicFormComponent que é responsável por criar um formulário dinâmico com base em uma lista de perguntas fornecidas. Aqui está um resumo do que o código está fazendo:
+
+Importa as dependências necessárias do Angular, como Component, Input, OnInit, CommonModule, FormGroup e ReactiveFormsModule.
+Importa os componentes e serviços relacionados ao formulário dinâmico, como DynamicFormQuestionComponent, QuestionBase e QuestionControlService.
+Define o componente DynamicFormComponent com seu seletor, template e provedores de serviço.
+Declara uma entrada @Input() chamada questions que recebe uma lista de perguntas do tipo QuestionBase<string>[].
+Define uma propriedade form do tipo FormGroup que representa o formulário dinâmico.
+Define uma propriedade payLoad para armazenar os dados do formulário após o envio.
+No método ngOnInit(), inicializa o formulário chamando o serviço QuestionControlService para converter a lista de perguntas em um FormGroup.
+No método onSubmit(), converte os valores brutos do formulário em uma string JSON e armazena-os na propriedade payLoad.
+
+![image](https://github.com/Ra2861/Angular/assets/99209068/eedf2ab6-4fb5-47ae-8c97-6e549cdc54d1)
+
+
 # App
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
 
