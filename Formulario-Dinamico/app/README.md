@@ -35,7 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 <hr/>
 
-Este código implementa um componente Angular chamado DynamicFormComponent que é responsável por criar um formulário dinâmico com base em uma lista de perguntas fornecidas.
+Este código implementa um componente Angular chamado DynamicFormComponent que é responsável por criar um formulário dinâmico com base em uma lista de perguntas fornecidas.<br/>
 
 ![image](https://github.com/Ra2861/Angular/assets/99209068/d66693c0-541f-4b86-9f96-b6332bdcfcc3)
 
@@ -48,7 +48,7 @@ No método onSubmit(), converte os valores brutos do formulário em uma string J
 
 <hr/>
 
-Este trecho do código implementa um componente Angular chamado DynamicFormQuestionComponent que é responsável por renderizar uma única pergunta em um formulário dinâmico.
+Este trecho do código implementa um componente Angular chamado DynamicFormQuestionComponent que é responsável por renderizar uma única pergunta em um formulário dinâmico.<br/>
 ![image](https://github.com/Ra2861/Angular/assets/99209068/0d347f52-1ae9-4676-915e-2c64b8d9f681)
 
 Define o componente DynamicFormQuestionComponent com seu seletor, template e importações de módulos.
@@ -59,7 +59,7 @@ Define uma propriedade de acesso de leitura chamada isValid, que verifica se o c
 O template provavelmente contém a marcação HTML para renderizar a pergunta e pode usar as propriedades question e form para exibir as informações e validar a entrada do usuário.<br/>
 <hr/> 
 
-Este código define uma classe genérica chamada QuestionBase<T> que serve como modelo para criar perguntas em um formulário dinâmico. Esta classe fornece um modelo flexível para criar diferentes tipos de perguntas, permitindo que as propriedades da pergunta sejam configuradas de forma dinâmica durante a instanciação da classe.
+Este código define uma classe genérica chamada QuestionBase<T> que serve como modelo para criar perguntas em um formulário dinâmico. Esta classe fornece um modelo flexível para criar diferentes tipos de perguntas, permitindo que as propriedades da pergunta sejam configuradas de forma dinâmica durante a instanciação da classe.<br/>
 
 ![image](https://github.com/Ra2861/Angular/assets/99209068/7af084d2-3831-409d-9afd-d1812d00e4f5)
 Declara várias propriedades que representam os atributos de uma pergunta:
