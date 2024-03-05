@@ -30,7 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 <h1>Formulario dinâmico</h1>
 
-![Captura de tela 2024-03-03 232051](https://github.com/Ra2861/Angular/assets/99209068/51f1cbba-2a22-4ee5-a8d7-50c5ada2311a)
+![image](https://github.com/Ra2861/Angular/assets/99209068/d66693c0-541f-4b86-9f96-b6332bdcfcc3)
 
 <hr/>
 
