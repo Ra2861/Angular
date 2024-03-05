@@ -1,4 +1,10 @@
+<h1>Formulario dinâmico</h1>
+
 ![Captura de tela 2024-03-03 232051](https://github.com/Ra2861/Angular/assets/99209068/51f1cbba-2a22-4ee5-a8d7-50c5ada2311a)
+
+<hr/>
+
+![image](https://github.com/Ra2861/Angular/assets/99209068/eedf2ab6-4fb5-47ae-8c97-6e549cdc54d1)
 
 Este código implementa um componente Angular chamado DynamicFormComponent que é responsável por criar um formulário dinâmico com base em uma lista de perguntas fornecidas.
 
@@ -9,7 +15,18 @@ Define uma propriedade payLoad para armazenar os dados do formulário após o en
 No método ngOnInit(), inicializa o formulário chamando o serviço QuestionControlService para converter a lista de perguntas em um FormGroup.<br/>
 No método onSubmit(), converte os valores brutos do formulário em uma string JSON e armazena-os na propriedade payLoad.<br/>
 
-![image](https://github.com/Ra2861/Angular/assets/99209068/eedf2ab6-4fb5-47ae-8c97-6e549cdc54d1)
+![image](https://github.com/Ra2861/Angular/assets/99209068/0d347f52-1ae9-4676-915e-2c64b8d9f681)
+
+
+Este trecho do código implementa um componente Angular chamado DynamicFormQuestionComponent que é responsável por renderizar uma única pergunta em um formulário dinâmico.<br/>
+
+Define o componente DynamicFormQuestionComponent com seu seletor, template e importações de módulos.
+Declara duas entradas @Input():<br/>
+question: que recebe uma pergunta do tipo QuestionBase<string>.<br/>
+form: que recebe o formulário do tipo FormGroup ao qual a pergunta está associada.<br/>
+Define uma propriedade de acesso de leitura chamada isValid, que verifica se o controle do formulário associado à pergunta é válido.<br/>
+O template provavelmente contém a marcação HTML para renderizar a pergunta e pode usar as propriedades question e form para exibir as informações e validar a entrada do usuário.<br/>
+
 
 
 # App
